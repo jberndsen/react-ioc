@@ -6,6 +6,7 @@ import { InjectorProvider } from './ioc/ioc';
 import { container } from './App.ioc';
 
 import { SomeOtherComponent } from './SomeOtherComponent';
+import { AnotherComponent } from './AnotherComponent';
 
 const App: React.FC = () => {
   return (
@@ -26,6 +27,7 @@ const App: React.FC = () => {
           </a>
         </header>
         <SomeOtherComponent />
+        <AnotherComponent />
       </div>
     </InjectorProvider>
   );
